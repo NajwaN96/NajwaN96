@@ -1,0 +1,34 @@
+name: Refresh public profile visual
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 6 * * 1'
+  push:
+    branches: [main]
+    paths:
+      - scripts/render_activity.py
+      - .github/workflows/profile-visuals.yml
+permissions:
+  contents: read
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render public repository metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/render_activity.py
+      - name: Commit generated SVG only
+        run: |
+          git add -- public-activity.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh public repository activity visual'
+          git push
