@@ -10,10 +10,9 @@
 
 I build projects around cloud infrastructure, Kubernetes, observability, and controlled incident recovery. I am expanding toward **AI Engineering**, bringing a systems perspective to deploying, evaluating, and operating reliable AI applications.
 
-**نجوى الشهراني** — مهندسة سحابة وDevOps، أتطور نحو هندسة الذكاء الاصطناعي، وأهتم ببناء أنظمة موثوقة يمكن فهمها ومراقبتها وتحسينها.
+![Project toolkit: Python, Go, Docker, Kubernetes, Prometheus, OpenTelemetry, GitHub Actions and AWS](toolkit.svg)
 
-**My engineering toolkit**  
-Python · Go · Docker · Kubernetes · Prometheus · OpenTelemetry · GitHub Actions · AWS
+![Build, observe, evaluate, improve: an animated process illustration, not live telemetry](engineering-loop.svg)
 
 ## Selected projects
 
@@ -23,14 +22,14 @@ Python · Go · Docker · Kubernetes · Prometheus · OpenTelemetry · GitHub Ac
 
 A **Python / Kubernetes reliability lab** that collects operational evidence, tracks incident recovery, and proposes human-approved remediation. Optional AI explains the evidence; deterministic rules remain authoritative.
 
-[AI implementation](https://github.com/NajwaN96/kubemedic/blob/main/kubemedic/app/ai/openai_analyzer.py) · [Sanitization tests](https://github.com/NajwaN96/kubemedic/blob/main/kubemedic/tests/test_ai_sanitize.py) · [Lessons learned](https://github.com/NajwaN96/kubemedic/blob/main/docs/lessons-learned.md)
+[Reproducible AI evaluation](https://github.com/NajwaN96/kubemedic/tree/main/kubemedic/evaluation) · [Results and limitations](https://github.com/NajwaN96/kubemedic/blob/main/kubemedic/evaluation/RESULTS.md) · [AI implementation](https://github.com/NajwaN96/kubemedic/blob/main/kubemedic/app/ai/openai_analyzer.py) · [Sanitization tests](https://github.com/NajwaN96/kubemedic/blob/main/kubemedic/tests/test_ai_sanitize.py) · [Lessons learned](https://github.com/NajwaN96/kubemedic/blob/main/docs/lessons-learned.md)
 
 <details>
 <summary>See the lab and its scope</summary>
 
 ![KubeMedic operator console from the documented local lab](https://raw.githubusercontent.com/NajwaN96/kubemedic/main/docs/images/kubemedic/dashboard-en.png)
 
-Local lab, with an unprovisioned AWS reference design. The documented AI integration has not been exercised with a live provider. AI cannot execute Kubernetes operations.
+Local lab, with an unprovisioned AWS reference design. The offline evaluation uses 16 synthetic cases. A provider-quota error prevented live model answers; no live model-quality result is claimed. AI cannot execute Kubernetes operations.
 
 </details>
 
@@ -62,3 +61,9 @@ This is a challenge snapshot. The README documents layout gaps that must be reco
 My systems projects provide a foundation in **deployment, monitoring, auditability, and human oversight**. My next learning priorities are **model evaluation, LLM applications, retrieval-augmented generation, and MLOps**.
 
 I value clear boundaries: distinguish working implementations from reference designs, and connect technical claims to inspectable evidence.
+
+## Public work, automatically refreshed
+
+![Public repository languages and last push dates from the GitHub API; activity is not a quality score](public-activity.svg)
+
+[Refresh workflow](https://github.com/NajwaN96/NajwaN96/actions/workflows/profile-visuals.yml) · [Generator](scripts/render_activity.py). Refreshed weekly and on demand using public repository metadata only. Icons are custom illustrations; animations are decorative, not live system status.
