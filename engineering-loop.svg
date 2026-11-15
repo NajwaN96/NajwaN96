@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="205" viewBox="0 0 900 205" role="img" aria-labelledby="title desc">
 <title id="title">Build, observe, evaluate, improve</title><desc id="desc">A decorative engineering loop. Animation illustrates a process, not live telemetry or model results.</desc>
 <style>@media(prefers-reduced-motion:reduce){.motion{display:none}}</style>
-<rect width="900" height="205" rx="20" fill="#111827"/>
-<g font-family="Arial,sans-serif"><text x="30" y="34" fill="#c4b5fd" font-size="13" letter-spacing="2">HOW I APPROACH ENGINEERING</text>
-<path d="M110 100 H790 M790 100 V154 H110 V100" fill="none" stroke="#374151" stroke-width="2"/>
-<path class="motion" d="M110 100 H790 M790 100 V154 H110 V100" fill="none" stroke="#5eead4" stroke-width="3" stroke-dasharray="25 1543"><animate attributeName="stroke-dashoffset" values="0;-1568" dur="12s" repeatCount="indefinite"/></path>
-<g fill="#111827" stroke="#a78bfa" stroke-width="2"><circle cx="110" cy="100" r="23"/><circle cx="337" cy="100" r="23"/><circle cx="563" cy="100" r="23"/><circle cx="790" cy="100" r="23"/></g>
-<g fill="none" stroke="#ede9fe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m104 93-7 7 7 7m12-14 7 7-7 7m-4-17-4 20"/><path d="M321 100q16-20 32 0-16 20-32 0"/><circle cx="337" cy="100" r="4"/><path d="M553 90h20v20h-20zm4 10 4 4 7-9"/><path d="M780 106v-12h12m0 0-12 12m0-12 12 12"/></g>
-<g fill="#f9fafb" font-size="14" text-anchor="middle"><text x="110" y="69">BUILD</text><text x="337" y="69">OBSERVE</text><text x="563" y="69">EVALUATE</text><text x="790" y="69">IMPROVE</text></g>
-<text x="30" y="186" fill="#9ca3af" font-size="12">A process illustration · evidence before confidence · human oversight for sensitive actions</text></g></svg>
+<rect width="900" height="205" rx="20" fill="#f8f9fd" stroke="#e5e9f1"/>
+<g font-family="Arial,sans-serif"><text x="30" y="34" fill="#5146d7" font-size="13" letter-spacing="2">HOW I APPROACH ENGINEERING</text>
+<path d="M110 100 H790 M790 100 V154 H110 V100" fill="none" stroke="#e5e9f1" stroke-width="2"/>
+<path class="motion" d="M110 100 H790 M790 100 V154 H110 V100" fill="none" stroke="#9990e7" stroke-width="3" stroke-dasharray="25 1543"><animate attributeName="stroke-dashoffset" values="0;-1568" dur="16s" repeatCount="indefinite"/></path>
+<g fill="#f8f9fd" stroke="#5146d7" stroke-width="2"><circle cx="110" cy="100" r="23"/><circle cx="337" cy="100" r="23"/><circle cx="563" cy="100" r="23"/><circle cx="790" cy="100" r="23"/></g>
+<g fill="none" stroke="#5146d7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m104 93-7 7 7 7m12-14 7 7-7 7m-4-17-4 20"/><path d="M321 100q16-20 32 0-16 20-32 0"/><circle cx="337" cy="100" r="4"/><path d="M553 90h20v20h-20zm4 10 4 4 7-9"/><path d="M780 106v-12h12m0 0-12 12m0-12 12 12"/></g>
+<g fill="#243149" font-size="14" text-anchor="middle"><text x="110" y="69">BUILD</text><text x="337" y="69">OBSERVE</text><text x="563" y="69">EVALUATE</text><text x="790" y="69">IMPROVE</text></g>
+<text x="30" y="186" fill="#5a6679" font-size="12">A process illustration · evidence before confidence · human oversight for sensitive actions</text></g></svg>

@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
 <title id="title">Public repository activity snapshot</title>
 <desc id="desc">Repository push dates from the GitHub API. Activity is not a quality score.</desc>
-<rect width="900" height="260" rx="20" fill="#111827"/>
-<g font-family="Arial,sans-serif"><text x="30" y="38" fill="#c4b5fd" font-size="13" letter-spacing="2">PUBLIC WORK / AUTOMATED SNAPSHOT</text>
-<text x="30" y="67" fill="#f9fafb" font-size="23" font-weight="bold">Built in public. Linked to evidence.</text>
-<text x="630" y="96" fill="#9ca3af" font-size="12">LAST REPOSITORY PUSH (UTC)</text>
-<circle cx="35" cy="121" r="4" fill="#5eead4"/>
-<text x="51" y="126" fill="#f9fafb" font-size="16">kubemedic</text>
-<text x="450" y="126" fill="#c4b5fd" font-size="14">Python</text>
-<text x="660" y="126" fill="#d1d5db" font-size="14">2026-11-14</text>
-<circle cx="35" cy="158" r="4" fill="#5eead4"/>
-<text x="51" y="163" fill="#f9fafb" font-size="16">opspilot</text>
-<text x="450" y="163" fill="#c4b5fd" font-size="14">Go</text>
-<text x="660" y="163" fill="#d1d5db" font-size="14">2026-11-14</text>
-<circle cx="35" cy="195" r="4" fill="#5eead4"/>
-<text x="51" y="200" fill="#f9fafb" font-size="16">thmanyah-sre-challenge</text>
-<text x="450" y="200" fill="#c4b5fd" font-size="14">Shell</text>
-<text x="660" y="200" fill="#d1d5db" font-size="14">2026-11-14</text>
-<text x="30" y="237" fill="#9ca3af" font-size="12">Fetched 2026-11-14 21:06 UTC · Public metadata only · Push dates do not measure proficiency</text></g></svg>
+<rect width="900" height="260" rx="20" fill="#f8f9fd"/>
+<g font-family="Arial,sans-serif"><text x="30" y="38" fill="#5146d7" font-size="13" letter-spacing="2">PUBLIC WORK / AUTOMATED SNAPSHOT</text>
+<text x="30" y="67" fill="#243149" font-size="23" font-weight="bold">Built in public. Linked to evidence.</text>
+<text x="630" y="96" fill="#5a6679" font-size="12">LAST REPOSITORY PUSH (UTC)</text>
+<circle cx="35" cy="121" r="4" fill="#5146d7"/>
+<text x="51" y="126" fill="#243149" font-size="16">kubemedic</text>
+<text x="450" y="126" fill="#5146d7" font-size="14">Python</text>
+<text x="660" y="126" fill="#243149" font-size="14">2026-11-14</text>
+<circle cx="35" cy="158" r="4" fill="#5146d7"/>
+<text x="51" y="163" fill="#243149" font-size="16">opspilot</text>
+<text x="450" y="163" fill="#5146d7" font-size="14">Go</text>
+<text x="660" y="163" fill="#243149" font-size="14">2026-11-14</text>
+<circle cx="35" cy="195" r="4" fill="#5146d7"/>
+<text x="51" y="200" fill="#243149" font-size="16">thmanyah-sre-challenge</text>
+<text x="450" y="200" fill="#5146d7" font-size="14">Shell</text>
+<text x="660" y="200" fill="#243149" font-size="14">2026-11-14</text>
+<text x="30" y="237" fill="#5a6679" font-size="12">Fetched 2026-11-15 08:39 UTC · Public metadata only · Push dates do not measure proficiency</text></g></svg>

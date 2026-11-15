@@ -1,9 +1,12 @@
-![Najwa Alshahrani — Cloud and DevOps Engineer, growing into AI Engineering](najwa-header.gif)
+<picture>
+  <source media="(max-width: 600px)" srcset="hero-mobile.svg">
+  <img src="hero-desktop.svg" width="1200" alt="Najwa Alshahrani — Cloud and DevOps Engineer, advancing into AI Engineering. Imagine. Create. Amaze.">
+</picture>
 
-<p align="center">
-<a href="https://najwa-alshahrani-portfolio.e-newint1.chatgpt.site/">Portfolio</a> &nbsp; · &nbsp;
-<a href="https://www.linkedin.com/in/najwaalshahrani">LinkedIn</a> &nbsp; · &nbsp;
-<a href="najwa-header.png">View static header</a>
+<p>
+  <a href="https://najwa-alshahrani-portfolio.e-newint1.chatgpt.site/"><img src="portfolio-button.svg" width="210" height="52" alt="Explore portfolio"></a>
+  <a href="https://www.linkedin.com/in/najwaalshahrani"><img src="linkedin-button.svg" width="155" height="52" alt="LinkedIn"></a>
+  <a href="https://github.com/NajwaN96/kubemedic/tree/main/kubemedic/evaluation"><img src="evaluation-button.svg" width="185" height="52" alt="AI evaluation"></a>
 </p>
 
 ## Engineering with intent
@@ -16,9 +19,7 @@ I build projects around cloud infrastructure, Kubernetes, observability, and con
 
 ## Selected projects
 
-![Three engineering projects: KubeMedic for incident investigation, OpsPilot for controlled recovery, and the SRE challenge for failure exercises](engineering-projects.png)
-
-### 01 · [KubeMedic](https://github.com/NajwaN96/kubemedic)
+[![KubeMedic — Evidence-led incident investigation](project-kubemedic.svg)](https://github.com/NajwaN96/kubemedic)
 
 A **Python / Kubernetes reliability lab** that collects operational evidence, tracks incident recovery, and proposes human-approved remediation. Optional AI explains the evidence; deterministic rules remain authoritative.
 
@@ -33,7 +34,7 @@ Local lab, with an unprovisioned AWS reference design. The offline evaluation us
 
 </details>
 
-### 02 · [OpsPilot](https://github.com/NajwaN96/opspilot)
+[![OpsPilot — Observe. Approve. Verify.](project-opspilot.svg)](https://github.com/NajwaN96/opspilot)
 
 A **Go / Kubernetes reliability control plane** connecting telemetry, incident detection, constrained rollback proposals, human approval, and recovery verification.
 
@@ -48,7 +49,7 @@ The interactive workflow runs locally. The public AWS portfolio presents sanitiz
 
 </details>
 
-### 03 · [Thmanyah SRE Challenge](https://github.com/NajwaN96/thmanyah-sre-challenge)
+[![Thmanyah SRE Challenge — Explore failure. Document recovery.](project-thmanyah.svg)](https://github.com/NajwaN96/thmanyah-sre-challenge)
 
 A **Node.js / Go / Python infrastructure challenge** exploring service integration, Kubernetes manifests, monitoring, and failure scenarios.
 
@@ -66,4 +67,4 @@ I value clear boundaries: distinguish working implementations from reference des
 
 ![Public repository languages and last push dates from the GitHub API; activity is not a quality score](public-activity.svg)
 
-[Refresh workflow](https://github.com/NajwaN96/NajwaN96/actions/workflows/profile-visuals.yml) · [Generator](scripts/render_activity.py). Refreshed weekly and on demand using public repository metadata only. Icons are custom illustrations; animations are decorative, not live system status.
+[Refresh workflow](https://github.com/NajwaN96/NajwaN96/actions/workflows/profile-visuals.yml) · [Generator](scripts/render_activity.py). Refreshed weekly and on demand using public repository metadata only. Icons and monogram artwork follow my portfolio identity. Animation illustrates a process, not live telemetry. [Static hero](hero-static.svg).
