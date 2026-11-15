@@ -5,21 +5,32 @@
 
 <p>
   <a href="https://najwa-alshahrani-portfolio.e-newint1.chatgpt.site/"><img src="portfolio-button.svg" width="210" height="52" alt="Explore portfolio"></a>
-  <a href="https://www.linkedin.com/in/najwaalshahrani"><img src="linkedin-button.svg" width="155" height="52" alt="LinkedIn"></a>
-  <a href="https://github.com/NajwaN96/kubemedic/tree/main/kubemedic/evaluation"><img src="evaluation-button.svg" width="185" height="52" alt="AI evaluation"></a>
+  <a href="https://www.linkedin.com/in/najwaalshahrani"><img src="linkedin-button.svg" width="130" height="52" alt="LinkedIn"></a>
+  <a href="https://github.com/NajwaN96/kubemedic/tree/main/kubemedic/evaluation"><img src="evaluation-button.svg" width="160" height="52" alt="AI evaluation"></a>
 </p>
 
 ## Engineering with intent
 
 I build projects around cloud infrastructure, Kubernetes, observability, and controlled incident recovery. I am expanding toward **AI Engineering**, bringing a systems perspective to deploying, evaluating, and operating reliable AI applications.
 
-![Project toolkit: Python, Go, Docker, Kubernetes, Prometheus, OpenTelemetry, GitHub Actions and AWS](toolkit.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="toolkit-mobile.svg">
+  <img src="toolkit.svg" width="900" alt="Project toolkit: Python, Go, Docker, Kubernetes, Prometheus, OpenTelemetry, GitHub Actions and AWS">
+</picture>
 
-![Build, observe, evaluate, improve: an animated process illustration, not live telemetry](engineering-loop.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="engineering-loop-mobile.svg">
+  <img src="engineering-loop.svg" width="900" alt="Build, observe, evaluate, improve: an animated process illustration, not live telemetry">
+</picture>
 
 ## Selected projects
 
-[![KubeMedic — Evidence-led incident investigation](project-kubemedic.svg)](https://github.com/NajwaN96/kubemedic)
+<a href="https://github.com/NajwaN96/kubemedic">
+<picture>
+  <source media="(max-width: 600px)" srcset="project-kubemedic-mobile.svg">
+  <img src="project-kubemedic.svg" width="900" alt="KubeMedic — Evidence-led incident investigation">
+</picture>
+</a>
 
 A **Python / Kubernetes reliability lab** that collects operational evidence, tracks incident recovery, and proposes human-approved remediation. Optional AI explains the evidence; deterministic rules remain authoritative.
 
@@ -34,7 +45,12 @@ Local lab, with an unprovisioned AWS reference design. The offline evaluation us
 
 </details>
 
-[![OpsPilot — Observe. Approve. Verify.](project-opspilot.svg)](https://github.com/NajwaN96/opspilot)
+<a href="https://github.com/NajwaN96/opspilot">
+<picture>
+  <source media="(max-width: 600px)" srcset="project-opspilot-mobile.svg">
+  <img src="project-opspilot.svg" width="900" alt="OpsPilot — Observe. Approve. Verify.">
+</picture>
+</a>
 
 A **Go / Kubernetes reliability control plane** connecting telemetry, incident detection, constrained rollback proposals, human approval, and recovery verification.
 
@@ -49,7 +65,12 @@ The interactive workflow runs locally. The public AWS portfolio presents sanitiz
 
 </details>
 
-[![Thmanyah SRE Challenge — Explore failure. Document recovery.](project-thmanyah.svg)](https://github.com/NajwaN96/thmanyah-sre-challenge)
+<a href="https://github.com/NajwaN96/thmanyah-sre-challenge">
+<picture>
+  <source media="(max-width: 600px)" srcset="project-thmanyah-mobile.svg">
+  <img src="project-thmanyah.svg" width="900" alt="Thmanyah SRE Challenge — Explore failure. Document recovery.">
+</picture>
+</a>
 
 A **Node.js / Go / Python infrastructure challenge** exploring service integration, Kubernetes manifests, monitoring, and failure scenarios.
 
@@ -65,6 +86,9 @@ I value clear boundaries: distinguish working implementations from reference des
 
 ## Public work, automatically refreshed
 
-![Public repository languages and last push dates from the GitHub API; activity is not a quality score](public-activity.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="public-activity-mobile.svg">
+  <img src="public-activity.svg" width="900" alt="Public repository languages and last push dates from the GitHub API; activity is not a quality score">
+</picture>
 
 [Refresh workflow](https://github.com/NajwaN96/NajwaN96/actions/workflows/profile-visuals.yml) · [Generator](scripts/render_activity.py). Refreshed weekly and on demand using public repository metadata only. Icons and monogram artwork follow my portfolio identity. Animation illustrates a process, not live telemetry. [Static hero](hero-static.svg).

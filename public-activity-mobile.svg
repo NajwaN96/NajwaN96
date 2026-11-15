@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="440" viewBox="0 0 600 440" role="img"><title>Public repository push dates; activity is not a quality score</title>
+<rect x="1" y="1" width="598" height="438" rx="22" fill="#f8f9fd" stroke="#e5e9f1"/><g font-family="Arial,sans-serif">
+<text x="30" y="43" fill="#5146d7" font-size="18" letter-spacing="2">PUBLIC WORK / AUTO REFRESH</text>
+<text x="30" y="85" fill="#243149" font-size="29" font-weight="bold">Built in public.</text>
+<text x="30" y="140" fill="#243149" font-size="24">kubemedic</text>
+<text x="30" y="170" fill="#5a6679" font-size="18">Python / last push 2026-11-14 UTC</text>
+<text x="30" y="222" fill="#243149" font-size="24">opspilot</text>
+<text x="30" y="252" fill="#5a6679" font-size="18">Go / last push 2026-11-14 UTC</text>
+<text x="30" y="304" fill="#243149" font-size="24">thmanyah-sre-challenge</text>
+<text x="30" y="334" fill="#5a6679" font-size="18">Shell / last push 2026-11-14 UTC</text>
+<text x="30" y="390" fill="#5a6679" font-size="16">Fetched 2026-11-15 08:42 UTC</text>
+<text x="30" y="420" fill="#5a6679" font-size="16">Public metadata only; not a proficiency score</text></g></svg>
