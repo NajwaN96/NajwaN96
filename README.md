@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="hero-original-mobile.svg">
-  <img src="hero-original-desktop.svg" width="1200" alt="Najwa Alshahrani — Cloud and DevOps Engineer, advancing into AI Engineering. Imagine. Create. Amaze.">
+  <source media="(max-width: 600px)" srcset="hero-brand-mobile.svg">
+  <img src="hero-brand-desktop.svg" width="1200" alt="Najwa Alshahrani — Cloud and DevOps Engineer, advancing into AI Engineering. Imagine. Create. Amaze.">
 </picture>
 
 <p>
@@ -91,4 +91,4 @@ I value clear boundaries: distinguish working implementations from reference des
   <img src="public-activity.svg" width="900" alt="Public repository languages and last push dates from the GitHub API; activity is not a quality score">
 </picture>
 
-[Refresh workflow](https://github.com/NajwaN96/NajwaN96/actions/workflows/profile-visuals.yml) · [Generator](scripts/render_activity.py). Refreshed weekly and on demand using public repository metadata only. Icons and monogram artwork follow my portfolio identity. Animation illustrates a process, not live telemetry. [Static hero](hero-original-static.svg).
+[Refresh workflow](https://github.com/NajwaN96/NajwaN96/actions/workflows/profile-visuals.yml) · [Generator](scripts/render_activity.py). Refreshed weekly and on demand using public repository metadata only. Icons and monogram artwork follow my portfolio identity. Animation illustrates a process, not live telemetry. [Static hero](hero-brand-static.svg).
