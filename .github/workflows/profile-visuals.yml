@@ -26,7 +26,7 @@ jobs:
         run: python3 scripts/render_activity.py
       - name: Commit generated SVG only
         run: |
-          git add -- public-activity.svg
+          git add -- public-activity.svg public-activity-mobile.svg
           if git diff --cached --quiet; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
